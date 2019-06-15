@@ -17,7 +17,7 @@
 		B4C2467C22B4017E00CF90C6 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C2467B22B4017E00CF90C6 /* TodayViewController.swift */; };
 		B4C2467F22B4017E00CF90C6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C2467D22B4017E00CF90C6 /* MainInterface.storyboard */; };
 		B4C2468322B4017E00CF90C6 /* DemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4C2467622B4017E00CF90C6 /* DemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B4C2468922B4019A00CF90C6 /* WidgetVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C2468822B4019A00CF90C6 /* WidgetVIew.swift */; };
+		B4C2468922B4019A00CF90C6 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C2468822B4019A00CF90C6 /* WidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		B4C2467B22B4017E00CF90C6 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		B4C2467E22B4017E00CF90C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		B4C2468022B4017E00CF90C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4C2468822B4019A00CF90C6 /* WidgetVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetVIew.swift; sourceTree = "<group>"; };
+		B4C2468822B4019A00CF90C6 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 				B4C2467B22B4017E00CF90C6 /* TodayViewController.swift */,
 				B4C2467D22B4017E00CF90C6 /* MainInterface.storyboard */,
 				B4C2468022B4017E00CF90C6 /* Info.plist */,
-				B4C2468822B4019A00CF90C6 /* WidgetVIew.swift */,
+				B4C2468822B4019A00CF90C6 /* WidgetView.swift */,
 			);
 			path = DemoWidget;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C2468922B4019A00CF90C6 /* WidgetVIew.swift in Sources */,
+				B4C2468922B4019A00CF90C6 /* WidgetView.swift in Sources */,
 				B4C2467C22B4017E00CF90C6 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
