@@ -8,6 +8,7 @@
 
 import UIKit
 import NotificationCenter
+import SwiftUI
 
 class TodayViewController: UIViewController, NCWidgetProviding {
         
@@ -15,7 +16,12 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-        
+
+
+    @IBSegueAction func addSwiftUIView(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: WidgetView())
+    }
+    
     func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
         // Perform any setup necessary in order to update the view.
         
